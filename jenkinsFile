@@ -19,8 +19,8 @@ sh 'ls -ltr'
   
   stage ("Delivery of Image to Docker Hub") {
     steps {
-      sh 'sudo docker image tag httpd02 birajkr7/httpd02:1.0'
-      sh 'sudo docker push birajkcr7/httpd02:1.0'
+      sh 'sudo docker image tag httpd02 git09/httpd02:1.0'
+      sh 'sudo docker push git09/httpd02:1.0'
     }
   }
   
